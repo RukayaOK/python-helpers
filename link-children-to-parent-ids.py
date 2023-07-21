@@ -56,4 +56,4 @@ def get_parent_child_structure_by_id(self, items, child_id_key, parent_id_key, *
         
         return families
 
-print(parent_child_structure(items, 'id', 'parent', 'content_type'))
+print(get_parent_child_structure_by_id(items, 'id', 'parent', 'some_arg'))
