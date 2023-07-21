@@ -1,11 +1,11 @@
 items = [
-  {'id': 1, 'parent': None, 'content_type': 'folder'},
-  {'id': 2, 'parent': 1, 'content_type': 'folder'},
-  {'id': 3, 'parent': 2, 'content_type': 'folder'},
-  {'id': 4, 'parent': 3, 'content_type': 'file'},
-  {'id': 5, 'parent': None, 'content_type': 'folder'},
-  {'id': 6, 'parent': 1, 'content_type': 'file'},
-  {'id': 7, 'parent': 2, 'content_type': 'folder'},
+  {'id': 1, 'parent': None, 'some_arg': 'folder'},
+  {'id': 2, 'parent': 1, 'some_arg': 'folder'},
+  {'id': 3, 'parent': 2, 'some_arg': 'folder'},
+  {'id': 4, 'parent': 3, 'some_arg': 'file'},
+  {'id': 5, 'parent': None, 'some_arg': 'folder'},
+  {'id': 6, 'parent': 1, 'some_arg': 'file'},
+  {'id': 7, 'parent': 2, 'some_arg': 'folder'},
 ]
 
 
