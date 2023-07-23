@@ -53,6 +53,8 @@ def get_parent_child_structure_by_id(self, items, child_id_key, parent_id_key, *
         
         for relatives in families.values():
             crawl_relatives(relatives, families)
+
+        families = {k: [dict(s) for s in set(frozenset(d.items()) for d in v)] for k, v in families.items()}
         
         return families
 
